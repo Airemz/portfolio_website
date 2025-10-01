@@ -31,7 +31,7 @@ Live Demo: 🔗 https://sadiqr.dev
 
 ### 1) Clone & install
 ```bash
-git clone https://github.com/yourname/your-portfolio.git
-cd your-portfolio
+git clone https://github.com/Airemz/portfolio_website.git
+cd portfolio_website
 npm install
 npm run dev
