@@ -1,5 +1,17 @@
 export const experience = [
   {
+    title: "Full-Stack Developer",
+    company: "Mission Perform Inc.",
+    period: "Jan 2026 - April 2026",
+    bullets: [
+      "Developed key features for an MVP-stage MERN workforce management platform, working closely with the CTO, executive team and pharmaceutical clients to translate customer-requested workflows into scalable features.",
+      "Designed a task time-management solution for the platform’s scheduling workflow, reducing latency when managing 100+ tasks by over 70% and improving responsiveness across varying screens in a performance-critical user flow.",
+      "Built a work center view for employees to view current, previous, and upcoming tasks alongside assigned team members, pacing metrics, and overall status, improving visibility into shift responsibilities and task execution.",
+      "Implemented an end-to-end CSV/Excel bulk import feature with column mapping, backend API changes, validation steps and database updates to streamline manager setup of operational task data and reduce manual entry.",
+      "Contributed to a separate MVP-stage web and mobile product by developing React Native video-calling features, including audio handling, call minimization, lazy loading, and pagination."
+    ],
+  },
+  {
     title: "Engineering Technician/Software Developer",
     company: "University Health Network - Techna Institute",
     period: "May 2024 - Aug 2024, Jan 2025 - Mar 2025",

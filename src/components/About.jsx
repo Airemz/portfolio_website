@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
 import { ReactTyped } from 'react-typed';
-import profilePicture from '../Assets/profile-pic.png';
+import profilePicture from '../Assets/profile-pic.webp';
 import { profile } from '../data/profile';
 import { motion } from 'framer-motion';
 // Tailwind migration: inline classes
@@ -143,9 +143,12 @@ const About = () => {
             <div className="relative w-full max-w-sm overflow-hidden rounded-xl border border-border/50 bg-card/50 backdrop-blur-sm shadow-lg group-hover:shadow-xl transition-all duration-500">
               <motion.img
                 src={profile.image || profilePicture}
+                srcSet={`${profilePicture} 480w, ${profilePicture} 800w`}
+                sizes="(max-width: 600px) 480px, 800px"
                 alt="Sadiq Rahman"
                 className="w-full h-auto"
                 loading="lazy"
+                decoding="async"
                 whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.3 }}
               />

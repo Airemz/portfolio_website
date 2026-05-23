@@ -13,7 +13,7 @@ export const projects = [
     tags: ["React", "Vite", "Tailwind CSS", "JavaScript", "Node.js"],
   },
   {
-    title: "Startup Website Mockup - JOY-STICK",
+    title: "Startup Website Mockup",
     bullets: [
       "Designed and implemented a multi-page mock website for a gaming startup concept with responsive layouts using Bootstrap 5 components (carousel, cards) and custom CSS to deliver a polished, modern UI across screen sizes.",
       "Applied accessibility best practices (semantic HTML, ARIA labels) to improve usability and inclusivity."
@@ -47,6 +47,35 @@ export const projects = [
       demo: null,
     },
     tags: ["C++"],
+  },
+  {
+    title: "Matrix-Vector Multiplication (MVM) Engine",
+    bullets: [
+      "Designed and implemented a parameterized MVM accelerator in SystemVerilog with support for parallelized dot-product lanes.",
+      "Optimized DSP usage by time-multiplexing multipliers (4 DSPs per lane vs. 8), doubling the number of lanes achievable under hardware constraints.",
+      "Explored trade-offs in throughput vs. latency by pipelining multipliers and accumulation stages.",
+      "Validated functionality using Verilator testbenches and synthesized to FPGA with timing/resource utilization analysis.",
+      "Collaborated with a partner to debug datapath/control logic and document design choices for reproducibility."
+    ],
+    links: {
+      code: "https://github.com/Airemz/matrix-vector-multiplication-engine",
+      demo: null,
+    },
+    tags: ["SystemVerilog, FPGA (Xilinx Vivado)"],
+  },
+  {
+    title: "Blackjack-Game",
+    bullets: [
+      "Co-created a playable Blackjack game with an interactive GUI built in Python using Tkinter.",
+      "Implemented game logic including betting system, dealer AI, win/lose states, and balance tracking.",
+      "Designed event-driven interface with buttons, labels, and card images for an engaging user experience.",
+      "Practiced collaborative development by building the project with a partner for a class assignment."
+    ],
+    links: {
+      code: "https://github.com/Airemz/Blackjack-Game",
+      demo: null,
+    },
+    tags: ["Python", "Tkinter", "OOP", "Game Dev"],
   },
 ];
 

@@ -1,4 +1,4 @@
-  import profilePicture from "../Assets/profile-pic.png";
+  import profilePicture from "../Assets/profile-pic.webp";
 
   export const profile = {
     name: "Sadiq Rahman",

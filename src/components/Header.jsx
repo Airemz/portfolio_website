@@ -54,7 +54,7 @@ const Header = () => {
             <li><a className="hover:text-primary transition-colors" href="#contact" onClick={() => scrollToSection('contact')}>Contact</a></li>
             <li>
               <a
-                href="https://drive.google.com/file/d/152O9LgDYVpkpavMhuWlvIZRvehS1BgbE/view?usp=sharing"
+                href="https://drive.google.com/file/d/120TSkRzB4_lXQCo2Ve-oZyXOAw-OG82Q/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative inline-flex items-center px-5 py-2 text-sm font-semibold rounded-lg 
